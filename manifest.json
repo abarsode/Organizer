@@ -1,0 +1,37 @@
+{
+  "name": "Google Services Organizer",
+  
+  "description": "This extension shows your drive files, you calendar events, new emails, weather and clock/date.",
+  
+  "version": "0.2",
+  
+  "icons" : {
+    "48": "icon_48x48.png",
+    "128": "icon_128x128.png"
+  },
+  
+  "oauth2": {
+    "client_id": "606626600331-8vr6usqo621c577e69rbbrar9tm2s2ng.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+  },
+  
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAspEzZpbqeZNWrr1D3Rvx7ySIRfnLgKjXP9opR52bhb9DhHR9Xxt1caK/iru7JNwgG7S1mBgdcbYq9nreAIDzaRTk2qZ5TlvpeUi36Yf4n8IOOKy6CADT2c6rltWgPxQYlUyI8bcahS5GSm4o+nLg2kzIry0GBUr/tOWob/o6C46Zd8FIgREZvocakxlcqVz8k+bdUbOZpWME/oWGW17nMiTzfEWdh+xR+Owz1WWwrpyqkCNlO5JhzP9WK3yOvaBtncZc37B++6NRfmVxVvFlX0zjBZLBJPiTejfqPWxMpYY29RYbcHH0Y/gyn4iZd5IvixQq1mBCG4QGtQkqBbYuTwIDAQAB",
+  
+  "background": { "scripts": ["background.js"]},
+  
+  "permissions": [
+    "debugger",
+    "tabs",
+    "identity",
+    "https://ssl.gstatic.com/",
+    "https://www.googleapis.com/",
+    "https://accounts.google.com/",
+    "https://www.googleapis.com/auth/drive"
+  ],
+  
+  "browser_action": {"default_icon": "icon_20x20.png"},
+  
+  "manifest_version": 2
+}
